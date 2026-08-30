@@ -1,2 +1,5 @@
-# ai_home_projects
-Github Repository for our AI home projects.
+# 🏠 AI Home Projects
+
+> **Coming Soon:**
+> - 🧹 Home Chores Assistant
+> - 🎮 Educational Games Factory
