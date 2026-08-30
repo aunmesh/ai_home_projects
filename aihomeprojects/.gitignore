@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# captured frames and models — never commit these
+captures/
+frames/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.pt
+*.onnx
+
+*.db
+*.sqlite3
+
+.DS_Store
+.vscode/
+.idea/
+.netlify/
