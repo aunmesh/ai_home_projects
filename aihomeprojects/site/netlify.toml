@@ -1,0 +1,20 @@
+# Netlify config for the website only.
+# In the Netlify UI, set the site's PACKAGE DIRECTORY to "site" and leave
+# BASE DIRECTORY unset. Netlify then reads this file and skips builds when
+# nothing under site/ has changed.
+
+[build]
+  publish = "."
+  command = ""
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
