@@ -9,6 +9,7 @@ Live site: https://aihomeprojects.netlify.app
 
 ```
 site/                 the website (deployed to Netlify)
+experiments/          numbered, timeboxed tests — do these before building
 chores-assistant/     project 01 — the code
   capture/            scheduled stills, per room
   detect/             object detection + clutter judgement
